@@ -7,49 +7,74 @@
     <title>Gustavo Canales</title>
     <link rel="stylesheet" href="assest/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"-->
+    
 </head>
 <body>
-    <!--Header information-->
-    <div class="header"> 
-     <div>
-         <h1>Gustavo A. Canales</h1>
-     </div>
-        <!--Link to About-->
-        <div class="about">
-            <a class="link" href="index.html">About</a>
-         </div>
-         <!--Link to Portfolio-->
-         <div class="portfolio">
-            <a class="link" href="portfolio.html">Portfolio</a>
-         </div>
-         <!--Link to Contact-->
-         <div class="contact">
-            <a class="link" href="contact.html">Contact</a>
-         </div>
-    </div>
+
+     <!--Nav Bar-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" id="name">Gustavo A. Canales</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link active" href="Contact.html">Contact</a>
+                      </li>
+                
+                </div>
+          </nav>
+
+
       <!--Contact-->
-      <div id="mainbody">
-      <div class="main">
-        <div>
-            <h2>Contact</h2>
+      <div class="row" style="margin-top:0px; margin-bottom:40px;">
+            <div class="col-md-1" style="background-image: url(assets/images/border.png);">
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="headerfont">Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <!--Input Form-->
+                            <form id="form">
+                            Name: <br>
+                            <input type="text" name="name" required>
+                            <br><br>
+                            Email: <br>
+                            <input type="email" name="email" required>
+                            <br><br>
+                            Message: <br>
+                            <textarea name="message" rows="10" cols="125"></textarea>
+                            <br><br>
+                            <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="background-image: url(assets/images/border.png);">
+
+            </div>
         </div>
-        <!--Input Form-->
-        <form id="form">
-            Name: <br>
-            <input type="text" name="name" required>
-            <br><br>
-            Email: <br>
-            <input type="email" name="email" required>
-            <br><br>
-            Message: <br>
-            <textarea name="message" rows="10" cols="125"></textarea>
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
-      </div>
-      </div>
-    <div class="footer">
-        <p>Copyright &copy;</p>
-    </div>
+
+
+       <!--Footer-->
+    <nav class="navbar fixed-bottom navbar-light footerbg d-flex justify-content-center">
+            <p class="footer">Copyright &copy;</p>
+          </nav>
 </body>
 </html>
