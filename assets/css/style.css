@@ -59,7 +59,6 @@ h1 {
 }
 
 #mainbody{
-    background-image: url("../images/border.png");
     padding-top: 5px;
     padding-left: 200px;
     padding-bottom: 20px;
@@ -179,7 +178,7 @@ input:invalid{
 }
 
 #name{
-    color: #4aaaa5;
+    /*color: #4aaaa5;*/
     font-size: 40px;
     font-weight: bold;
 }
@@ -195,10 +194,8 @@ input:invalid{
 }
 
 .footerbg {
-    background-color:#666666;
     border-top: 6px solid #4aaaa5;
     text-align: center;
-    color: #ffffff;
     font-size: 15px;
 
 }
