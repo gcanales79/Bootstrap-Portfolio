@@ -177,11 +177,11 @@ input:invalid{
     background-color: rgb(243, 92, 100);
 }
 
-#name{
-    /*color: #4aaaa5;*/
+/*#name{
+    color: #4aaaa5;
     font-size: 40px;
     font-weight: bold;
-}
+}*/
 
 .headerfont{
     color: #4aaaa5;
@@ -199,3 +199,12 @@ input:invalid{
     font-size: 15px;
 
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
