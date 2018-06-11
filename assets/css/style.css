@@ -78,9 +78,7 @@ h1 {
 
 
 #image {
-    float:left;
-    margin-left:30px;
-    margin-right: 50px;
+ height: 220px;
 }
 
 .content {
@@ -181,8 +179,7 @@ input:invalid{
 }
 
 #name{
-    background-color: #4aaaa5;
-    color: #ffffff;
+    color: #4aaaa5;
     font-size: 40px;
     font-weight: bold;
 }
